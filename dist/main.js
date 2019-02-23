@@ -510,12 +510,13 @@ var Greeter = function (_Component) {
   }
 
   _createClass(Greeter, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       return _react2.default.createElement(
-        'div',
+        "div",
         null,
-        '11113335'
+        _react2.default.createElement("img", { src: "./timg.jpg" }),
+        "11113335"
       );
     }
   }]);
